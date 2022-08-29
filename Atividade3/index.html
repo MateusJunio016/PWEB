@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Página Inicial</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+
+<body link="white">
+    <header class="cabecalho">
+        <img class="cabecalho-imagem" src="seguranca.Png" width="3%" height="3%">
+        <nav class="cabecalho-menu">
+                <a href="#introducao">Introdução</a> |
+                <a href="#conceito">O que é segurança na web</a> |
+                <a href="#exemplos">Exemplos de ameaças e possíveis soluções</a> |
+                <a href="#conclusao">Conclusão</a> |
+                <a href="#ref">Referências</a>
+        </nav>
+    </header>
+
+    <main class="conteudo">
+            <h5 class="cabecalho-menu-item">Nome: Mateus Junio da Silva Miranda</h5>
+            <h5 class="cabecalho-menu-item">RA: 0030482111033</h5>
+        <section class="conteudo-principal">
+            <div class="conteudo-principal-escrito">
+                <h2 class="conteudo-principal-escrito-titulo">Segurança na Web</h2>
+                <h3 class="conteudo-principal-escrito-subtitulo">Um tema de conhecimento primordial para qualquer um que
+                    utilize a internet</h3>
+            </div>
+            <img class="conteudo-principal-imagem" src="imgHacker.png" width="15%" height="15%">
+        </section>
+
+        <section class="conteudo-secundario">
+            <h3 class="conteudo-principal-escrito-titulo" id="introducao">Introdução</h3>
+            <p class="conteudo-secundario-paragrafo">&emsp; A segurança na web é um tema extremamente amplo, além de apresentar
+                uma grande importância para o
+                funcionamento dos meios digitais, de maneira geral. Este assunto aborda diversos protocolos de
+                segurança,
+                meios de proteção de dados, certificações digitais de segurança e outros subitens com um conteúdo
+                extremamente amplo.
+                Neste trabalho, serão abordados alguns tópicos específicos concomitantes a este tema, tais como: visão
+                geral
+                sobre o assunto, algumas ameaças acerca da web e meios de solução para os mesmos.
+            </p>
+
+            <h3 class="conteudo-principal-escrito-titulo" id="conceito">O que é segurança na web</h3>
+            <p class="conteudo-secundario-paragrafo">&emsp;A segurança na web, se refere a uma área de cibersegurança. Seu
+                principal objetivo é a proteção de sites, aplicativos inseridos na internet e serviços online, focada em
+                eliminar qualquer tipo de ataque malicioso concentrado em tais locais virtuais, presentes na internet. O
+                termo surgiu com o intuito de definir uma abstração de dados sigilosos, transações online, e garantir a
+                proteção aos usuários inseridos na rede.
+                <p class="conteudo-secundario-paragrafo">As informações inseridas na web, possuem grande valor, e para que a privacidade seja mantida, é muito
+                    importante conhecer os tipos de ataque que podem ocorrer a qualquer usuário que esteja conectado à
+                    internet.</p>
+            </p>
+
+            <h3 class="conteudo-principal-escrito-titulo" id="exemplos">Exemplos de ameaça e possíveis soluções</h3>
+            <h3 class="conteudo-secundario-titulo">Protocolo HTTP</h3>
+            <p class="conteudo-secundario-paragrafo">
+                    &emsp;A troca de dados entre cliente e servidor é importante e extremamente necessária para que ocorra a
+                comunicação entre ambos. Nos primórdios da utilização da web, era utilizado o protocolo HTTP, porém a
+                mesma apresentava uma comunicação insegura, visto que os dados dos usuários estavam totalmente
+                desprotegidos. Desta forma, houve o surgimento do HTTPS, com a segurança SSL (Secure Sockets Layer).
+                Posteriormente, também surgiu o TLS (Transport Layer Security) para reforçar a segurança em diversos
+                protocolos.
+            </p>
+
+            <h3 class="conteudo-secundario-titulo">Pishing</h3>
+            <p class="conteudo-secundario-paragrafo">
+                    &emsp;Consiste em um tipo de ataque virtual que envolve e-mails enganosos. Os invasores se empenham em
+                ludibriar os remetentes para que os mesmos acreditam que a mensagem recebida seja importante ou sequer
+                apresente algum tipo de objetivo mal-intencionado. O mais comum nesta situação, é que o hacker tente
+                tornar o e-mail próximo do usuário; para isso, seu foco é persuadi-lo para que acredite ser algum
+                comunicado do banco ou colega de trabalho. Desta forma, ao clicar no link, o usuário receberá algum tipo
+                de malware ou compartilhará informações pessoais.
+                Está é uma ameaça bem antiga e bem simples de ser detectada. Para tanto, ainda uma das mais utilizadas
+                desde dos anos 90, já que é uma maneira fácil dos hackers roubarem dados e até mesmo obterem acesso a
+                contas bancárias. A solução para esta ameaça é presenta na maioria dos serviços de e-mail, com a chamada
+                caixa de spam.
+            </p>
+
+            <h3 class="conteudo-secundario-titulo">Man-In-The-Middle (MITM)</h3>
+            <p class="conteudo-secundario-paragrafo">
+                    &emsp;Este ataque ocorre por meio de uma comunicação adaptada entre cliente e servidor, onde a mesma pode até
+                ser modificada. Para corrigi-la, foi necessário a atribuição do Segure Context, podendo ser uma Window
+                ou Worker, onde os padrões mínimos de confidencialidade e autenticação devem ser atendidos.
+            </p>
+
+            <h3 class="conteudo-secundario-titulo">Javascript Malicioso</h3>
+            <p class="conteudo-secundario-paragrafo">&emsp;Um site pode ter em sua definição um JavaScript malicioso. Isto é,
+                tal código poderá acessar arquivos do
+                dispositivo do usuário. A solução para que isto não ocorra, é a utilização de um software em format
+                flatpak no Linux, o qual oferece a capacidade de isolar numa sandbox, e o uso da chamada de sistema
+                pledge(), no OpenBSD, que faz a restrição das operações permitidas no software.
+            </p>
+
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <h3 class="conteudo-principal-escrito-titulo" id="conclusao">Conclusão</h3>
+        <p class="conteudo-secundario-paragrafo">
+                &emsp;Após analisar o tema referente a segurança na web, é possível destacar a importância de utilizar um software
+            atualizado e estar sempre atento a autenticidade e confiabilidade de um software ou aplicativo, pois os
+            mesmos estão inseridos na internet, uma rede imensa repleta de conexões e usuários possivelmente
+            mal-intencionados.
+            Além disso, a segurança da web é um tema abrangente, pois parte desde defensores e soluções de correção, até
+            atacantes e conceitos de vírus e malwares.
+        </p>
+
+        <br>
+
+        <h3 class="conteudo-principal-escrito-titulo" id="ref">Referências</h3>
+        <ul class="conteudo-secundario-paragrafo">
+            <li><a href="https://www.hostinger.com.br/tutoriais/seguranca-web">Segurança Web: O que é, Como Funciona
+                    e
+                    Quais os Melhores Serviços</a></li>
+            <li><a href="https://edu.gcfglobal.org/pt/seguranca-na-internet/o-que-e-seguranca-na-internet/1/">O que
+                    é
+                    segurança da Internet?</a></li>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/Security">Mozilla. Web Security. MDN Web
+                    Docs.</a>
+            </li>
+            <li><a href="https:docs.flatpak.org/em/latest/sandbox-permissions-html">FlatPak Team. Sandbox
+                    permissions.
+                    Flatpak documentation</a></li>
+        </ul>
+
+    </footer>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+        }
+
+        body {
+            font-size: 100%;
+            background: linear-gradient(68.15deg, #0e0e0e 16.62%, #6e6891 85.61%);
+        }
+
+        .cabecalho {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+            padding: 24px;
+        }
+
+        .cabecalho-imagem {
+            width: 72px;
+            height: 72px;
+        }
+
+        .cabecalho-menu {
+            display: flex;
+            gap: 32px;
+        }
+
+        .cabecalho-menu-item {
+            font-family: 'Sarala', sans-serif;
+            color: #FFF2E7;
+            font-weight: 400;
+            font-size: 18px
+        }
+
+        .conteudo {
+            margin-bottom: 48px;
+            border-top: 0.4px solid #FFF2E7;
+        }
+
+        .conteudo-principal {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        .conteudo-principal-escrito {
+            display: flex;
+            flex-direction: column;
+            gap: 32px;
+        }
+
+        .conteudo-principal-escrito-titulo {
+            font-family: 'Righteous', cursive;
+            font-weight: 400;
+            font-size: 34px;
+            color: #FFF2E7;
+        }
+
+        .conteudo-principal-escrito-subtitulo {
+            font-family: 'Sarala', sans-serif;
+            font-weight: 400;
+            font-size: 24px;
+            color: #ECD6C4;
+        }
+
+        .conteudo-principal-imagem {
+            margin-top: 30px;
+            width: 350px;
+            height: 350px;
+        }
+
+        .conteudo-secundario {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 24px;
+            margin-top: 48px;
+        }
+
+        .conteudo-secundario-titulo {
+            border-top: 0.4px solid #FFF2E7;
+            padding-top: 48px;
+            font-family: 'Righteous', cursive;
+            font-weight: 400;
+            font-size: 24px;
+            color: #FFF2EF;
+            margin-bottom: 16px;
+        }
+
+        .conteudo-secundario-paragrafo {
+            font-family: 'Sarala', sans-serif;
+            font-weight: 300;
+            font-size: 20px;
+            color: #ECD6C4;
+        }
+
+        .rodape {
+            padding: 32px;
+            border-top: 0.4px solid #FFF2E7;
+        }
+    </style>
+
+</body>
+
+</html>
