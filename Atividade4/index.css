@@ -1,0 +1,98 @@
+
+body {
+  background:#4d4d4d url(foto1.jpg);
+    background-repeat: no-repeat;
+font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana,
+sans-serif;
+line-height: 1.5;
+background-size: cover;
+    background-attachment: scroll;
+    background-image: url('https://th.bing.com/th/id/R.0a657b4c74d7e6d81265fe2a6fa6b8d4?rik=x1ytKRXdm2YJrQ&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f9%2f2%2f7%2f871310-widescreen-horror-background-images-1920x1080-download.jpg&ehk=uaMdREu6E6YRnPBlZsOs18vj7yo5tlFJFlFy%2bBRqN%2bU%3d&risl=&pid=ImgRaw&r=0');
+  }
+
+
+.container {
+margin: 0 auto;
+width: 960px;
+}
+
+article {
+background-color: #FFF;
+border: 1px solid #CCC;
+border-color: #CCC #999 #999 #CCC;
+margin-bottom: 20px;
+padding: 10px; /* espaçamento entre a borda e o título */
+}
+
+
+article h2 {
+border-bottom: 1px dashed rgb(124, 21, 3);
+margin: 0;
+}
+
+article img {
+border: 1px solid rgb(124, 21, 3);
+float: left;
+margin: 10px 10px 0 0;
+padding: 2px;
+width: 140px;
+height: 200px;
+}
+
+article a { /* mudando a cor dos links para negrito */
+color: rgb(165, 0, 0);
+font-weight: bold;
+}
+
+header h1 a {
+color: rgb(124, 21, 3);
+text-decoration: none;
+margin-left:250px;
+}
+
+header h1 a:hover { /* mudando a cor do link quando posicionado */
+background-color: rgb(124, 21, 3);
+color: #FFF;
+}
+
+.clear { /* para a imagem nao "ficar fora" quando usa o float */
+clear: both;
+}
+
+footer {
+font-size: 12px;
+text-align: center;
+}
+
+section { /* para a barra lateral lista e titulo */
+float: left;
+width: 660px;
+}
+
+aside {
+background-color: rgb(255, 255, 255);
+border: 1px solid rgb(201, 143, 143);
+padding: 10px;
+float: right;
+width: 260px;
+}
+
+aside h3 {
+font-size: 14px;
+margin-top: 0;
+}
+
+aside ol {
+font-size: 12px;
+}
+
+nav {
+  display: block;
+  background-color: #ffffff;
+}
+
+footer {
+  color: #fff
+}
+
+
