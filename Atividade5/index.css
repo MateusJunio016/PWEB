@@ -1,0 +1,137 @@
+body {
+  background: linear-gradient(68.15deg, #56191d 20.00%, #221f1f 80.00%);
+}
+
+
+h3 {
+  text-align: center;
+  font-size: 125%;
+  color: rgb(0, 0, 0);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-top: 1%;
+  margin-right: 1%;
+  margin-bottom: 4%;
+  margin-left: 1%;
+}
+
+
+
+h2 {
+  text-align: left;
+  font-size: 200%;
+  background-color: rgba(rgba(194, 27, 27, 0.589));
+  color: #bb1d24;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-top: 1%;
+  margin-right: 1%;
+  margin-bottom: 4%;
+  margin-left: 1%;
+  text-shadow: 2px 1px rgba(rgba(194, 27, 27, 0.589));
+}
+
+h1 {
+  text-align: center;
+  font-size: 300%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  border-color: #bb1d24;
+  width: 100%;
+  border-style: solid;
+  border-width: 10px;
+  margin-left: 1%;
+  background-color: rgba(rgba(194, 27, 27, 0.589));
+  color: white;
+  text-shadow: 0px 3px 5px black;
+}
+
+
+img {
+  display: block;
+  background-color: rgba(rgba(194, 27, 27, 0.589));
+  width: 700px;
+  border-radius: 2% 2% 2% 2%;
+  text-shadow: black;
+  border: solid rgba(rgba(194, 27, 27, 0.589));
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav {
+  font-size: 180%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: #bb1d24;
+  color: rgb(255, 255, 255);
+  margin-top: 1%;
+  margin-bottom: 2%;
+  border: solid 3px #e50914;
+}
+
+footer {
+  margin-top: 4%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #bb1d24;
+  background-color: rgba(0, 0, 0, 0.103);
+  font-size: 150%;
+}
+
+article {
+  margin-top: 3%;
+  border-style: solid;
+  width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f5f5f1;
+  border-radius: 2% 2% 2% 2%;
+  border: 1px solid #CCC;
+  border-color: #CCC #999 #999 #CCC;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+img:hover {
+  background-color: rgb(36, 0, 0);
+}
+
+nav:hover {
+  background-color: rgb(36, 0, 0);
+}
+
+header#flex {
+  display: flex;
+}
+
+img#icone {
+  width: 11%;
+}
+
+div.flex {
+  margin-bottom: 10%;
+  display: flex;
+}
+
+nav a {
+  padding: 5%;
+  text-decoration: none
+}
+
+a {
+  color: inherit;
+
+}
+
+aside {
+  margin-top: 4%;
+  width: 100%;
+
+}
+
+div#final {
+  width: 20%;
+}
+
+div#teste {
+  text-align: center;
+  background-color: red;
+  color: rgba(rgba(194, 27, 27, 0.589));
+  border: 2px 2px red;
+  margin-left: 10%;
+}
