@@ -6,5 +6,6 @@
     <li>Website utilizando componentes básicos</li>
     <li>Página web utilizando HTML semântico</li>
     <li>Página de notícias utilizando flexbox</li>
+    <li>Div que muda de cor</li>
   </ol>
 </table>
