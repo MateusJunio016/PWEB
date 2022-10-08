@@ -7,6 +7,7 @@
     <li>Website utilizando componentes básicos;</li>
     <li>Página web utilizando HTML semântico;</li>
     <li>Página de notícias utilizando flexbox.</li>
+    <li>Operações básicas e média utilizando JavaScript</li>
   </ol>
   <ul>
   Atividades extras:
