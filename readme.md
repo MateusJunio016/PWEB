@@ -8,7 +8,8 @@
     <li>Página web utilizando HTML semântico;</li>
     <li>Página de notícias utilizando flexbox.</li>
     <li>Operações básicas e média utilizando JavaScript</li>
-  </ol>
+  <li>Jogo de pedra, papel e tesoura com métodos JS</li>
+</ol>
   <ul>
   Atividades extras:
   <li>Div que altera a cor de acordo com o tamanho da tela.</li>
