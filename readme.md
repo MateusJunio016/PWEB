@@ -9,7 +9,7 @@
     <li>Página de notícias utilizando flexbox.</li>
     <li>Operações básicas e média utilizando JavaScript</li>
   <li>Jogo de pedra, papel e tesoura com métodos JS</li>
-  <li>Realizando uma pesquisa com funções JS</li>
+  <li>Realizando uma automatização de pesquisa com funções JS</li>
 </ol>
   <ul>
   Atividades extras:
