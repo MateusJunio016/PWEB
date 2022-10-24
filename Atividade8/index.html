@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <style>
+        body {
+            background-color: rgb(73, 11, 0);
+            min-height: 100%;
+            background-image: url(cinema.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 2500px;
+            align-items: center;
+        }
+
+        .inputs {
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+        }
+
+        .submit {
+            width: 300px;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            width: 350px;
+            background-color: snow;
+            align-items: center;
+            padding: 25px;
+            border-radius: 10px;
+            margin-left: 600px;
+            margin-top: 200px;
+
+        }
+
+        .titulo {
+            align-self: center;
+        }
+    </style>
+</head>
+
+<body>
+    <script type="text/javascript" src="script.js"></script>
+    <main class=main>
+        <div class="inputs">
+            <label class="titulo"><b>Pesquisa de Público</b></label>
+            <br>
+            <label for="idade">Idade</label>
+            <input id="idade" name="idade" type="text" />
+            <br>
+            <label for="genero">Sexo</label>
+            <select name="genero" id="genero">
+                <option value="Male">
+                    Masculino
+                </option>
+                <option value="Female">
+                    Feminino
+                </option>
+            </select>
+            <br>
+            <label for="opiniao">Opinião</label>
+            <select name="opiniao" id="opiniao">
+                <option value="4">Ótimo</option>
+                <option value="3">Bom</option>
+                <option value="2">Regular</option>
+                <option value="1">Péssimo</option>
+            </select>
+        </div>
+        <div>
+            <br><br>
+            <button onclick="onClick()" class="submit">Enviar</button>
+        </div>
+    </main>
+</body>
+
+</html>
