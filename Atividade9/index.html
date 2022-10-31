@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 9</title>
+    <style>
+        body {
+            background-color: rgb(95, 88, 87);
+            min-height: 100%;
+            background-image: url(image.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 2500px;
+            align-items: center;
+        }
+
+        .numeros {
+            display: flex;
+            flex-direction: column;
+            width: 350px;
+            background-color: snow;
+            align-items: center;
+            padding: 25px;
+            border-radius: 10px;
+            margin-left: 600px;
+            margin-top: 200px;
+        }
+
+        .resposta
+        {
+            display: flex;
+            flex-direction: column;
+            width: 350px;
+            background-color: snow;
+            align-items: center;
+            padding: 25px;
+            border-radius: 10px;
+            margin-left: 600px;
+            margin-top: 60px;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div id="numeros" class="numeros">
+            <h1>Digite três numeros</h1>
+            <input type="number" id="num1">
+            <br>
+            <input type="number" id="num2">
+            <br>
+            <input type="number" id="num3">
+            <br>
+            <input type="button" id="btn" value="maior numero" onclick="maior()">
+            <br>
+            <input type="button" id="btn" value="Ordem crescente" onclick="cresc()">
+        </div>
+
+
+        <div id="res" class="resposta">
+            <h1 id="resp">Aguardando operação...</h1>
+        </div>
+
+
+    </section>
+</body>
+<script src="script.js"></script>
+
+</html>
