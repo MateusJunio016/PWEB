@@ -12,6 +12,7 @@
   <li>Realizando uma automatização de pesquisa com funções JS</li>
   <li>Utilizando funções JS para retornar parâmetros ordenados e o maior valor</li>
   <li>Criando objetos com propriedades de diferentes maneiras</li>
+  <li>Declarando funções construtoras com utilização dos métodos get & set</li>
 </ol>
   <ul>
   Atividades extras:
