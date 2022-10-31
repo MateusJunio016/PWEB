@@ -11,6 +11,7 @@
   <li>Jogo de pedra, papel e tesoura com métodos JS</li>
   <li>Realizando uma automatização de pesquisa com funções JS</li>
   <li>Utilizando funções JS para retornar parâmetros ordenados e o maior valor</li>
+  <li>Criando objetos com propriedades de diferentes maneiras</li>
 </ol>
   <ul>
   Atividades extras:
