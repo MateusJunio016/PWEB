@@ -15,6 +15,8 @@
   <li>Declarando funções construtoras com utilização dos métodos get & set</li>
   <li>Criando eventos para modificar uma imagem</li>
   <li>Passando valores para maiúsculo e minúsculo com funções js</li>
+  <li>Validando dados de um formulário com funções js</li>
+  <li>Realizando abertura de uma nova janela com método js</li>
 </ol>
   <ul>
   Atividades extras:
