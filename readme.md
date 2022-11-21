@@ -13,6 +13,8 @@
   <li>Utilizando funções JS para retornar parâmetros ordenados e o maior valor</li>
   <li>Criando objetos com propriedades de diferentes maneiras</li>
   <li>Declarando funções construtoras com utilização dos métodos get & set</li>
+  <li>Criando eventos para modificar uma imagem</li>
+  <li>Passando valores para maiúsculo e minúsculo com funções js</li>
 </ol>
   <ul>
   Atividades extras:
