@@ -5,7 +5,7 @@ Proposta: Criação de um site (portfólio do aluno) com o design com o tema bas
 
 ### Tema Escolhido: Pokémon
 
-No dicionário de língua portuguesa, o portfólio é definido e significa “umdossiê ou documento com o registo individual de habilitações ou deexperiências”.
+No dicionário de língua portuguesa, o portfólio é definido e significa “umdossiê ou documento com o registo individual de habilitações ou de experiências”.
 
 
 ### Paleta de Cores
