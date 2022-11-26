@@ -22,4 +22,8 @@
   Atividades extras:
   <li>Div que altera a cor de acordo com o tamanho da tela.</li>
   </ul>
+  <ul>
+  Portfólio:
+  <li>Projeto final da disciplina realizado com ReactJS, Framer Motion e Styled Components.</li>
+  </ul>
 </table>
